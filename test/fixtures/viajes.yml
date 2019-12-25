@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_auto: MyString
+  cedula_id: MyString
+  tiempo: MyString
+  distancia: MyString
+  valor: MyString
+
+two:
+  id_auto: MyString
+  cedula_id: MyString
+  tiempo: MyString
+  distancia: MyString
+  valor: MyString
