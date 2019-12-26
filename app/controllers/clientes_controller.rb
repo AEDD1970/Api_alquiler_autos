@@ -4,8 +4,8 @@ class ClientesController < ApplicationController
   # GET /clientes
   # GET /clientes.json
   def index
-    @clientes = Cliente.all.select(:cedula, :email)
-    render json: @clientes
+    @cliente = Cliente.all.select(:cedula, :email)
+    render json: @cliente
   end
 
   # GET /clientes/1
@@ -25,10 +25,10 @@ class ClientesController < ApplicationController
   # POST /clientes
   # POST /clientes.json
   def create
-    @cliente = Product.new(cliente_params)
+    @cliente = Cliente.new(cliente_params)
       Welcome.notify(@clientes).deliver_now
     if @cliente.save
-      render json: @cliente, status: :created, location: @propietario, notice: 'Cliente was successfully create.'
+      render json: @cliente, status: :created, location: @cliente, notice: 'Cliente was successfully create.'
     else
       render json: @cliente.errors, status: :unprocessable_entity
     end
