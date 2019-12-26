@@ -4,7 +4,7 @@ class PropietariosController < ApplicationController
   # GET /propietarios
   # GET /propietarios.json
   def index
-    @propietarios = Propietario.all.select(:id_auto, :cedula, :tarjeta, :licencia, :email, :telefono, :direccion)
+    @propietario = Propietario.all.select(:id_auto, :cedula, :tarjeta, :licencia, :email, :telefono, :direccion)
     render json: @propietario
   end
 
@@ -24,9 +24,10 @@ class PropietariosController < ApplicationController
   end
 
   # POST /propietarios
+
   # POST /propietarios.json
   def create
-    @propietario = Product.new(product_params)
+    @propietario = Propietario.new(product_params)
 
     if @propietario.save
       render json: @propietario, status: :created, location: @propietario, notice: 'Propietario was successfully create.'
