@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/clientes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/clientes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/welcome.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/welcome.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/propietarios_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/propietarios_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191223015424_create_clientes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191223015424_create_clientes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191223020153_create_propietarios.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191223020153_create_propietarios.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191223021830_create_viajes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191223021830_create_viajes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +40,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
-  <component name="RunManager" selected="Rails.Development: apiAlquilerautos">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="rake db:migrate" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Rake.db:migrate: apiAlquilerautos">
     <configuration name="Development: apiAlquilerautos" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="apiAlquilerautos" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -82,6 +94,32 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db:migrate: apiAlquilerautos" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="apiAlquilerautos" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
     <configuration name="spec: apiAlquilerautos" type="RakeRunConfigurationType" factoryName="Rake">
@@ -133,6 +171,11 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Rake.db:migrate: apiAlquilerautos" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -159,7 +202,9 @@
       <updated>1577325700614</updated>
       <workItem from="1577325702221" duration="319000" />
       <workItem from="1577406552971" duration="22000" />
-      <workItem from="1577408205337" duration="4229000" />
+      <workItem from="1577408205337" duration="10047000" />
+      <workItem from="1577466502332" duration="25000" />
+      <workItem from="1577466533543" duration="3658000" />
     </task>
     <servers />
   </component>
@@ -167,9 +212,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="481" y="193" width="704" height="538" key="find.popup" timestamp="1577408517866">
-      <screen x="67" y="27" width="1533" height="873" />
+    <state x="2066" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577466527748">
+      <screen x="1600" y="0" width="1366" height="768" />
     </state>
+    <state x="2066" y="141" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466527748" />
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1577466814764">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814764" />
+    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1577466814764">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814764" />
+    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1577466814763">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814763" />
+    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1577466814764">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814764" />
+    <state x="1772" y="18" key="SettingsEditor" timestamp="1577472707809">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state x="1772" y="18" key="SettingsEditor/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577472707809" />
+    <state x="1810" y="0" width="1156" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577468543127">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state x="1810" y="0" width="1156" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577468543127" />
+    <state x="1969" y="146" width="704" height="538" key="find.popup" timestamp="1577472508740">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state x="1969" y="146" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577472508740" />
     <state x="481" y="193" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577408517866" />
+    <state x="1947" y="168" width="672" height="677" key="run.anything.popup" timestamp="1577466601542">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state x="1947" y="168" width="672" height="677" key="run.anything.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466601542" />
+    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577472640750">
+      <screen x="1600" y="0" width="1366" height="768" />
+    </state>
+    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577472640750" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/apiAlquilerautos@db_migrate__apiAlquilerautos.rcov" NAME="db:migrate: apiAlquilerautos Coverage Results" MODIFIED="1577466606212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="apiAlquilerautos" />
   </component>
 </project>

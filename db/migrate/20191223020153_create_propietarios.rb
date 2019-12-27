@@ -1,4 +1,4 @@
-class CreatePropietarios < ActiveRecord::Migration
+rails class CreatePropietarios < ActiveRecord::Migration
   def up
     create_table :propietarios do |t|
       t.string :id_auto
@@ -13,5 +13,6 @@ class CreatePropietarios < ActiveRecord::Migration
     end
   end
   def down
+    drop_table :propietarios
   end
 end

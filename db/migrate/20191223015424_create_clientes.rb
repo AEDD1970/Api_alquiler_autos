@@ -3,10 +3,12 @@ class CreateClientes < ActiveRecord::Migration
     create_table :clientes do |t|
       t.string :cedula
       t.string :email
+      t.string :telefono
 
       t.timestamps null: false
     end
   end
-  def down 
+  def down
+    drop_table :clientes
   end
 end

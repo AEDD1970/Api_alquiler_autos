@@ -11,5 +11,6 @@ class CreateViajes < ActiveRecord::Migration
     end
   end
   def dwon
+    drop_table :viajes
   end
 end
