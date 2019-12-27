@@ -19,9 +19,7 @@ class PropietariosController < ApplicationController
     @propietario = Propietario.new
   end
 
-  # GET /propietarios/1/edit
-  def edit
-  end
+
 
   # POST /propietarios
 
@@ -56,6 +54,6 @@ class PropietariosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def propietario_params
-      params.require(:propietario).permit(:id_auto, :cedula, :tarjeta, :licencia, :email, :telefono, :direccion)
+      params.permit(:id_auto, :cedula, :tarjeta, :licencia, :email, :telefono, :direccion)
     end
 end

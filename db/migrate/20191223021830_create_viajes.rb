@@ -1,4 +1,4 @@
-class CreateViajes < ActiveRecord::Migration
+class CreateViajes < ActiveRecord::Migration[5.0]
   def up
     create_table :viajes do |t|
       t.string :id_auto

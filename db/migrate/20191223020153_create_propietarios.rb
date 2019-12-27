@@ -1,4 +1,4 @@
-rails class CreatePropietarios < ActiveRecord::Migration
+ class CreatePropietarios < ActiveRecord::Migration[5.0]
   def up
     create_table :propietarios do |t|
       t.string :id_auto

@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/propietarios_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/propietarios_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20191223015424_create_clientes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191223015424_create_clientes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20191223020153_create_propietarios.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191223020153_create_propietarios.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20191223021830_create_viajes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191223021830_create_viajes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +194,8 @@
       <workItem from="1577406552971" duration="22000" />
       <workItem from="1577408205337" duration="10047000" />
       <workItem from="1577466502332" duration="25000" />
-      <workItem from="1577466533543" duration="3658000" />
+      <workItem from="1577466533543" duration="4198000" />
+      <workItem from="1577473650312" duration="68000" />
     </task>
     <servers />
   </component>
@@ -216,22 +207,22 @@
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
     <state x="2066" y="141" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466527748" />
-    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1577466814764">
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1577473623543">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814764" />
-    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1577466814764">
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577473623543" />
+    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1577473623543">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814764" />
-    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1577466814763">
+    <state width="1320" height="184" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577473623543" />
+    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1577473623543">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814763" />
-    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1577466814764">
+    <state width="1320" height="184" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577473623543" />
+    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1577473623543">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466814764" />
+    <state width="1320" height="184" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577473623543" />
     <state x="1772" y="18" key="SettingsEditor" timestamp="1577472707809">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>

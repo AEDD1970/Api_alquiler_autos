@@ -53,6 +53,6 @@ class ViajesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def viaje_params
-      params.require(:viaje).permit(:id_auto, :cedula_id, :tiempo, :distancia, :valor)
+      params.permit(:id_auto, :cedula_id, :tiempo, :distancia, :valor)
     end
 end
