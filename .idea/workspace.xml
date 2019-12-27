@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +205,7 @@
       <workItem from="1577466533543" duration="4198000" />
       <workItem from="1577473650312" duration="68000" />
       <workItem from="1577479787627" duration="5152000" />
+      <workItem from="1577484984612" duration="584000" />
     </task>
     <servers />
   </component>
@@ -237,19 +241,19 @@
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
     <state x="1791" y="0" width="1036" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577484014873" />
-    <state x="2092" y="131" width="704" height="538" key="find.popup" timestamp="1577482297746">
+    <state x="2092" y="131" width="704" height="538" key="find.popup" timestamp="1577485666406">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
-    <state x="2092" y="131" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577482297746" />
+    <state x="2092" y="131" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577485666406" />
     <state x="481" y="193" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577408517866" />
     <state x="1947" y="168" width="672" height="677" key="run.anything.popup" timestamp="1577466601542">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
     <state x="1947" y="168" width="672" height="677" key="run.anything.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466601542" />
-    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577482217202">
+    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577485266889">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
-    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577482217202" />
+    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577485266889" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/apiAlquilerautos@db_migrate__apiAlquilerautos.rcov" NAME="db:migrate: apiAlquilerautos Coverage Results" MODIFIED="1577466606212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="apiAlquilerautos" />
