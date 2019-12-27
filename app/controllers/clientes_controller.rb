@@ -26,8 +26,9 @@ class ClientesController < ApplicationController
   # POST /clientes.json
   def create
     @cliente = Cliente.new(cliente_params)
-      Welcome.notify(@clientes).deliver_now
+
     if @cliente.save
+      Welcome.notify(@clientes).deliver_now
       render json: @cliente, status: :created, location: @cliente, notice: 'Cliente was successfully create.'
     else
       render json: @cliente.errors, status: :unprocessable_entity

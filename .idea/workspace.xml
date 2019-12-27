@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="" />
+    <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/clientes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/clientes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/welcome.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/welcome.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Rails.Development: apiAlquilerautos">
     <configuration name="Development: apiAlquilerautos" type="RailsRunConfigurationType" factoryName="Rails">
@@ -144,10 +158,18 @@
       <option name="presentableId" value="Default" />
       <updated>1577325700614</updated>
       <workItem from="1577325702221" duration="319000" />
+      <workItem from="1577406552971" duration="22000" />
+      <workItem from="1577408205337" duration="4229000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="481" y="193" width="704" height="538" key="find.popup" timestamp="1577408517866">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="481" y="193" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577408517866" />
   </component>
 </project>
