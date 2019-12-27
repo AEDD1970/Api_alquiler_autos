@@ -1,4 +1,4 @@
-class CreateClientes < ActiveRecord::Migration
+class CreateClientes < ActiveRecord::Migration[5.0]
   def up
     create_table :clientes do |t|
       t.string :cedula
@@ -9,6 +9,7 @@ class CreateClientes < ActiveRecord::Migration
     end
   end
   def down
+
     drop_table :clientes
   end
 end
