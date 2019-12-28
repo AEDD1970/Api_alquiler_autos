@@ -1,2 +1,2 @@
-class Viaje < ActiveRecord::Base
+class Viaje < ApplicationRecord
 end

@@ -1,2 +1,2 @@
-class Propietario < ActiveRecord::Base
+class Propietario < ApplicationRecord
 end
