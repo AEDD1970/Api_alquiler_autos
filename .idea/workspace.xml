@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,7 @@
       <workItem from="1577473650312" duration="68000" />
       <workItem from="1577479787627" duration="5152000" />
       <workItem from="1577484984612" duration="1559000" />
-      <workItem from="1577496551941" duration="268000" />
+      <workItem from="1577496551941" duration="985000" />
     </task>
     <servers />
   </component>
@@ -237,10 +236,11 @@
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
     <state x="1772" y="18" key="SettingsEditor/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577472707809" />
-    <state x="1791" y="0" width="1036" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577484014873">
-      <screen x="1600" y="0" width="1366" height="768" />
+    <state x="281" y="27" width="1153" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577497536048">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1791" y="0" width="1036" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577484014873" />
+    <state x="281" y="27" width="1153" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1577497536048" />
     <state x="2092" y="131" width="704" height="538" key="find.popup" timestamp="1577485666406">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
