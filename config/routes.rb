@@ -1,7 +1,18 @@
 Rails.application.routes.draw do
-  resources :viajes
-  resources :propietarios
-  resources :clientes
+
+  resources :viajes, only: [:index, :create, :show, :destroy, :update] do
+    collection do
+    end
+  end
+
+  resources :propietarios, only: [:index, :create, :show, :destroy, :update] do
+    collection do
+    end
+  end
+  resources :clientes, only: [:index, :create, :show, :destroy, :update] do
+    collection do
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
