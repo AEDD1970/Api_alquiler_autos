@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="" />
+    <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/models/cliente.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/cliente.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +204,7 @@
       <workItem from="1577479787627" duration="5152000" />
       <workItem from="1577484984612" duration="1559000" />
       <workItem from="1577496551941" duration="4338000" />
-      <workItem from="1577544183787" duration="9370000" />
+      <workItem from="1577544183787" duration="10084000" />
     </task>
     <servers />
   </component>
