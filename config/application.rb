@@ -36,6 +36,6 @@ module ApiAlquilerautos
 
     #config.active_record.raise_in_transactional_callbacks = true
     #config.active_job.queue_adapter = :deleyed_job
-    config.action_mailer.default_url_options =  { host: 'https://floating-waters-90628.herokuapp.com'}
+    config.action_mailer.default_url_options =  { host: 'http://localhost:3000'}
   end
 end

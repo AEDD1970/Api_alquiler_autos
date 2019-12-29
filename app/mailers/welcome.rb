@@ -2,7 +2,7 @@ class Welcome < ApplicationMailer
 
 
   def notify(cliente)
-    @clientes = cliente
-    mail to: @clientes.email, subject: '!bienvenido a la aplicacion alquiler de autos'
+    @clientes = "hi #{cliente.email}"
+    mail(to: "alexis.duque1993@gmail.com", subject: 'hola alexis')
   end
 end
