@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  post 'user_token' => 'user_token#create'
   resources :viajes, only: [:index, :create, :show, :destroy, :update] do
     collection do
     end
