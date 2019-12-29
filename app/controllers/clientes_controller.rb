@@ -11,6 +11,7 @@ class ClientesController < ApplicationController
   # GET /clientes/1
   # GET /clientes/1.json
   def show
+
   end
 
   # GET /clientes/new
@@ -28,7 +29,7 @@ class ClientesController < ApplicationController
     @cliente = Cliente.new(cliente_params)
 
     if @cliente.save
-      # Welcome.notify(@cliente).deliver
+       Welcome.notify(@clientes).deliver_now
       render json: @cliente, status: :created, location: @cliente, notice: 'Cliente was successfully create.'
     else
       render json: @cliente.errors, status: :unprocessable_entity

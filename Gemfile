@@ -27,7 +27,7 @@ gem 'turbolinks'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-#gem 'delayed_job_active_record'
+gem 'delayed_job_active_record'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 gem 'rack-cors'

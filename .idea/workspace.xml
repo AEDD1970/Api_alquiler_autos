@@ -4,6 +4,11 @@
     <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/clientes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/clientes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/welcome.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/welcome.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/viaje.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/viaje.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/notify.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/notify.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api_ihr/ihr_back_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../miller/sending_emails_with_rails" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,7 +210,7 @@
       <workItem from="1577479787627" duration="5152000" />
       <workItem from="1577484984612" duration="1559000" />
       <workItem from="1577496551941" duration="4338000" />
-      <workItem from="1577544183787" duration="11852000" />
+      <workItem from="1577544183787" duration="16655000" />
     </task>
     <servers />
   </component>
@@ -213,11 +218,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="590" y="187" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577628294478">
+    <state x="590" y="187" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577643672419">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="2066" y="141" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577466527748" />
-    <state x="590" y="187" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577628294478" />
+    <state x="590" y="187" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577643672419" />
     <state x="590" y="187" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1577499723203" />
     <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1577473623543">
       <screen x="1600" y="0" width="1366" height="768" />
@@ -244,11 +249,11 @@
     </state>
     <state x="1791" y="0" width="1036" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577484014873" />
     <state x="281" y="27" width="1143" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1577500084021" />
-    <state x="481" y="193" width="704" height="538" key="find.popup" timestamp="1577629058274">
+    <state x="481" y="193" width="704" height="538" key="find.popup" timestamp="1577641271065">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="2092" y="131" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577545842787" />
-    <state x="481" y="193" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577629058274" />
+    <state x="481" y="193" width="704" height="538" key="find.popup/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577641271065" />
     <state x="619" y="176" width="791" height="612" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1577498534006" />
     <state x="1947" y="168" width="672" height="677" key="run.anything.popup" timestamp="1577466601542">
       <screen x="1600" y="0" width="1366" height="768" />
