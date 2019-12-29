@@ -4,7 +4,7 @@ class ClientesController < ApplicationController
   # GET /clientes
   # GET /clientes.json
   def index
-    @cliente = Cliente.all
+    @cliente = Cliente.all.select(:id, :cedula, :email, :telefono)
     render json: @cliente
   end
 
