@@ -26,7 +26,7 @@ class ViajesController < ApplicationController
   # POST /viajes.json
 
   def create
-    @viaje = Product.new(viaje_params)
+    @viaje = Viaje.new(viaje_params)
 
     if  @viaje.save
       render json:  @viaje, status: :created, location:  @viaje, notice: 'Propietario was successfully create.'
