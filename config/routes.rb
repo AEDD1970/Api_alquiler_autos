@@ -1,6 +1,15 @@
 Rails.application.routes.draw do
 
+
+  root 'home#index'
+  get 'auth'  => 'home#auth'
+
   post 'user_token' => 'user_token#create'
+
+  get '/users' => 'users#index'
+  post '/users/create' => 'users#create'
+
+
   resources :viajes, only: [:index, :create, :show, :destroy, :update] do
     collection do
     end

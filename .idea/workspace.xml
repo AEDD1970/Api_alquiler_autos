@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/initializers/user_serializer.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiAlquilerautos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/knock.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/knock.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/user_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/user_serializer.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191229235059_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191229235059_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +223,7 @@
       <workItem from="1577484984612" duration="1559000" />
       <workItem from="1577496551941" duration="4338000" />
       <workItem from="1577544183787" duration="23416000" />
-      <workItem from="1577660707021" duration="2982000" />
+      <workItem from="1577660707021" duration="12984000" />
     </task>
     <servers />
   </component>
@@ -250,10 +257,11 @@
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
     <state x="1772" y="18" key="SettingsEditor/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577472707809" />
-    <state x="281" y="27" width="1143" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577500084021">
+    <state x="281" y="27" width="1123" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577674620688">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="1791" y="0" width="1036" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577484014873" />
+    <state x="281" y="27" width="1123" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577674620688" />
     <state x="281" y="27" width="1143" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1577500084021" />
     <state x="481" y="193" width="704" height="538" key="find.popup" timestamp="1577661614605">
       <screen x="67" y="27" width="1533" height="873" />

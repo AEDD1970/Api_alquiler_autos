@@ -1,5 +1,9 @@
 Knock.setup do |config|
 
+  config.token_lifetime = 1.day #el tiempo de vida del token de una semana
+  config.token_signature_algorithm = 'HS256'
+  config.token_secret_signature_key = -> { Rails.application.secrets.secret_key_base }
+
   ## Expiration claim
   ## ----------------
   ##
