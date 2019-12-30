@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-  before_action :authenticate_user, only: [:index]
+  before_action :authenticate_user, only: [:index, :update]
+
 
   def index
     render json: {status: 200, msg: 'Autenticado'}
@@ -24,7 +25,7 @@ class UsersController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def user_params
-    params.permit(:username, :emailadmin, :password)
+    params.permit(:username, :emailadmin, :password_digest)
   end
 
 end

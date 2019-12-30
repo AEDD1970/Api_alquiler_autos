@@ -1,6 +1,7 @@
 class ViajesController < ApplicationController
   before_action :set_viaje, only: [:show, :edit, :update, :destroy]
   before_action :set_cedula, only: [:create_viaje]
+  include RenderHelper
   # GET /viajes
   # GET /viajes.json
   def index
@@ -43,14 +44,25 @@ class ViajesController < ApplicationController
                                     :valor => params[:valor]
                                 })
       attr.save!
-      render json: attr, status: :unprocessable_entity
-      puts "el viaje fue creado con exito"
+      #render json: attr, status: :unprocessable_entity
+      render_success_format('el viaje se a creado con exito', format_viaje(attr), 200)
     else
-      puts "no hay un empleado registrado con esa cedula"
+      render_default_error("el usuario con numero de cedula #{params[:cedula]} no esta registrado", 400)
     end
 
   end
 
+  def format_viaje model
+    model.as_json(
+        only: %i[cliente_id tiempo distancia valor],
+        # methods: %i[ticket_counting],
+        #include: {
+        #    cliente: {
+        #        only: %i[name_parking address phone email],
+        #    }
+        #}
+    )
+  end
   # PATCH/PUT /propietarios/1
   # PATCH/PUT /propietarios/1.json
   def update
