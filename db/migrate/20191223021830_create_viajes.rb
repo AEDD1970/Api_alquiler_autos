@@ -2,7 +2,7 @@ class CreateViajes < ActiveRecord::Migration[5.0]
   def up
     create_table :viajes do |t|
       t.string :id_auto
-      t.string :cedula_id
+      t.string :cliente_id
       t.string :tiempo
       t.string :distancia
       t.string :valor
@@ -10,7 +10,7 @@ class CreateViajes < ActiveRecord::Migration[5.0]
       t.timestamps null: false
     end
   end
-  def dwon
+  def down
     drop_table :viajes
   end
 end

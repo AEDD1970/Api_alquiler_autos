@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 
   resources :viajes, only: [:index, :create, :show, :destroy, :update] do
     collection do
+      post 'viajes_params/:cedula', action: :create_viaje
     end
   end
 

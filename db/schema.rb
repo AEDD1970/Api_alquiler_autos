@@ -61,7 +61,7 @@ ActiveRecord::Schema.define(version: 2019_12_29_235059) do
 
   create_table "viajes", id: :serial, force: :cascade do |t|
     t.string "id_auto"
-    t.string "cedula_id"
+    t.string "cliente_id"
     t.string "tiempo"
     t.string "distancia"
     t.string "valor"
