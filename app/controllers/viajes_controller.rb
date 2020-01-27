@@ -54,13 +54,7 @@ class ViajesController < ApplicationController
 
   def format_viaje model
     model.as_json(
-        only: %i[cliente_id tiempo distancia valor],
-        # methods: %i[ticket_counting],
-        #include: {
-        #    cliente: {
-        #        only: %i[name_parking address phone email],
-        #    }
-        #}
+
     )
   end
   # PATCH/PUT /propietarios/1
