@@ -27,11 +27,10 @@ class ViajesController < ApplicationController
   # POST /viajes.json
 
   def create_viaje
-    @viaje = Viaje.new(viaje_params)
+    #@viaje = Viaje.new(viaje_params)
     #
-    if  @viaje.save
-     render json:  @viaje, status: :created, location:  @viaje, notice: 'Propietario was successfully create.'
-     end
+    #if  @viaje.save
+    #  render json:  @viaje, status: :created, location:  @viaje, notice: 'Propietario was successfully create.'
     #else
     #  render json:  @viaje.errors, status: :unprocessable_entity
     #end

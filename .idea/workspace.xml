@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="809cd18d-65c6-4fd7-a3ff-0678e36b6d61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/viajes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/viajes_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +246,7 @@
       <workItem from="1579487068396" duration="2181000" />
       <workItem from="1579540791105" duration="2211000" />
       <workItem from="1579643274219" duration="37000" />
-      <workItem from="1580092380049" duration="635000" />
+      <workItem from="1580092380049" duration="1688000" />
     </task>
     <servers />
   </component>
@@ -313,10 +312,10 @@
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
     <state x="1947" y="168" width="672" height="677" key="run.anything.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577741332865" />
-    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577740960232">
+    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580093501756">
       <screen x="1600" y="0" width="1366" height="768" />
     </state>
-    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1577740960232" />
+    <state x="1946" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1533.873/1600.0.1366.768@1600.0.1366.768" timestamp="1580093501756" />
     <state x="455" y="128" width="755" height="771" key="search.everywhere.popup/67.27.1533.873/1600.0.1366.768@67.27.1533.873" timestamp="1577628770025" />
     <state x="455" y="128" width="755" height="771" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1577499276652" />
   </component>
